@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cookie = require('cookie-session')
 const passport = require('passport')
-const constants = require('./config/constants')
+const constants = require('./config/keys')
 require('./models/User')
 require('./services/passport')
 
