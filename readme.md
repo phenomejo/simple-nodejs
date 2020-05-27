@@ -13,4 +13,12 @@ heroku login
 
 heroku create
 
-heroku push heroku master
+git push heroku master
+
+# commit and deploy
+
+gitc add .
+
+git commit -am "message"
+
+git push heroku master
